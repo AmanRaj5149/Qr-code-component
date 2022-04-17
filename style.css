@@ -1,0 +1,55 @@
+/* - White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) */
+
+/* - Mobile: 375px
+- Desktop: 1440px */
+
+
+
+/* - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+body{
+  font-size: 15px;
+  font-family: "outfit", sanserif;
+  background-color: hsl(212, 45%, 89%);
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 1px);
+  margin: 1.25rem;
+}
+img{
+  max-width: 100%;
+}
+.container{
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.25rem;
+  max-width: 380px;
+}
+.container img {
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.container h1{
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.container p{
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.attribution {
+  font-size: 14px; text-align: center; }
+.attribution a {
+  color: hsl(228, 45%, 44%); }
